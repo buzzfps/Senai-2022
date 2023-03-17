@@ -1,7 +1,0 @@
-INDEX VERSION 1.131+E:\gabrielzontabatista1des\fpoo\aula15\workspace2\.metadata\.plugins\org.eclipse.jdt.core
-1865797976.index
-3822070578.index
-1384787705.index
-1249481703.index
-2820330174.index
-2782389197.index

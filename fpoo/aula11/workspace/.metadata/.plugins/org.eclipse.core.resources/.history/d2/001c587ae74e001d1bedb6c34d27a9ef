@@ -1,7 +1,0 @@
-package padrao;
-
-public class Venda {
-	String produto;
-	int quantidade;
-	float preco;
-}
