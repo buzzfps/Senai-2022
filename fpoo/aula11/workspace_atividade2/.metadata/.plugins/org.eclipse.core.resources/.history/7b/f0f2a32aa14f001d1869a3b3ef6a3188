@@ -1,0 +1,7 @@
+package padrao;
+
+public class Operacao {
+	String produto;
+	int qtdComprada;
+	int qtdVendida
+}

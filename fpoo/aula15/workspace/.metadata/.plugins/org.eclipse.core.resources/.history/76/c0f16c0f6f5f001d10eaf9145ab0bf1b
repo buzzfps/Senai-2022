@@ -1,0 +1,11 @@
+package funcionarios;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+
+
+public class Funcionarios {
+	private int matricula;
+	private String nome;
+	private Calendar nascimento = calendar.getInstance();
+}

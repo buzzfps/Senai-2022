@@ -1,0 +1,18 @@
+package padrao;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String nome;
+		float salario;
+		float valorDeposito;
+		Scanner scan = new Scanner(System.in);
+				
+		System.out.println("Digite o seu nome");
+		scan.next();
+
+	}
+
+}

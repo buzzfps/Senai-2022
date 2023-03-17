@@ -1,0 +1,12 @@
+package modelo;
+
+public class Venda {
+	String produto;
+	int quantidade;
+	float preco;
+	
+	float subtotal() {
+		return quantidade * preco;
+	}
+	
+}

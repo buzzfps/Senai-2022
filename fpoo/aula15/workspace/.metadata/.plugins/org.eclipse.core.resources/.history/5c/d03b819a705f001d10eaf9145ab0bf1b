@@ -1,0 +1,16 @@
+package funcionarios;
+import java.text.ParseException;
+import java.util.ArrayList;
+import java.util.Scanner;
+public class Main {
+	static Scanner scan = new Scanner(System.in);
+	static ArrayList<Funcionarios> funcionarios = new ArrayList<>();
+	static int menu = 0;
+	static String opcoes[] = { "1. Casastrar Vacina", "2. Listar Todas", "3. Alterar Dados", "4. Excluir Registro",
+			"5. Buscar por Pet", "6. Buscar por Veterinário", "7. Buscar por Vacina", "8. Terminar Programa" };
+	public static void main(String[] args) {
+		
+
+	}
+
+}

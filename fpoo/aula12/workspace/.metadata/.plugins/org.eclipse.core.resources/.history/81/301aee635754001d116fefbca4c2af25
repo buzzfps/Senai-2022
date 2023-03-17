@@ -1,0 +1,23 @@
+package padrao;
+
+public class Pessoa {
+	String nome;
+	String sobrenome;
+	int idade;
+	
+	Pessoa(){}
+	
+	Pessoa(String nom, String sobrenom, int id){
+	nome = nom;
+	sobrenome = sobrenom;
+	idade = id;
+	}
+	
+	String faseDaVida() {
+		if(idade <= 15)return "Criança";
+		else if(idade <= )return "Jovem"
+		else if(idade <= )return "Adulto"
+		else if(idade <= )return "Idoso"
+	}
+}
+

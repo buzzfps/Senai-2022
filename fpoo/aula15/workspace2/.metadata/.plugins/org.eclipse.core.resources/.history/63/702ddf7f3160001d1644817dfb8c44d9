@@ -1,0 +1,20 @@
+package exemplos;
+
+import java.io.BufferedWriter;
+
+public class Main1 {
+
+	public static void main(String[] args) {
+		String aluno = "Juquinha";
+		float prova = 7.5f;
+		float trabalho = 4.5f;
+		float atividades = 2;
+		float media = (prova + trabalho + atividades) / 3;
+		String saida = String.format("%s\t%.1f\t%.1f\t%.1f", aluno, prova, trabalho, atividades, media);
+
+		System.out.println(saida);
+		
+		BufferedWriter bw = new BufferedWrite();
+	}
+
+}

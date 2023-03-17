@@ -1,0 +1,18 @@
+package padrao;
+
+public class Gato {
+	
+	String nome; //Atributos
+	String raça;
+	float peso;
+	
+	void miar() {
+		System.out.println("Miau");
+	}
+	//Método principal
+	public static void main(String[] args) {
+			System.out.println("Miau");
+			
+	}
+
+}

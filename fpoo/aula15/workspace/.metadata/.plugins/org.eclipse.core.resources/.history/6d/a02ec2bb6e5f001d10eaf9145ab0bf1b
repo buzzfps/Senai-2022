@@ -1,0 +1,7 @@
+package funcionarios;
+
+public class Funcionarios {
+	int matricula;
+	String nome;
+	Calendar nascimento;
+}

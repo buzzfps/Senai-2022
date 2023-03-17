@@ -1,0 +1,22 @@
+package padrao;
+
+import java.util.Scanner;
+import java.util.ArrayList;
+
+public class Main {
+
+	public static void main(String[] args) {
+		ArrayList<Pessoa> pessoas = new ArrayList();
+		int i;
+		
+		pessoas.add(nome);
+		pessoas.add(sobrenome);
+		pessoas.add(idade);
+		
+		System.out.println("Digite o número de quantas pessoas deseja cadastrar: ");
+		
+		
+		
+	}
+
+}

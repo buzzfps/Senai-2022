@@ -1,0 +1,25 @@
+package padrao;
+
+public class Operacao {
+	String produto;
+	int qtdComprada;
+	int qtdVendida;
+	float precoCompra;
+	float precoVenda;
+	
+	float investimento() {
+		return
+	}
+	
+	float faturamento() {
+		return
+	} 
+	
+	float lucroDinheiro() {
+		return
+	}
+	
+	float lucroPorcentagem() {
+		
+	}
+}

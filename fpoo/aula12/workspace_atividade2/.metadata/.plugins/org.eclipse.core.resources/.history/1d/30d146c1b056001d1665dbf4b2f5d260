@@ -1,0 +1,10 @@
+package padrao;
+
+public class Turma {
+	String nomeTurma;
+	String periodo;
+	String diaSemana;
+	int numAlunos;
+	int horasSemanais;
+	float mensadilade;
+}

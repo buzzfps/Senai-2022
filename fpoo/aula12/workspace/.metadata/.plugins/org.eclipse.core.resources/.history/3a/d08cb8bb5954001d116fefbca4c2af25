@@ -1,0 +1,13 @@
+package padrao;
+
+import java.util.Scanner;
+import java.util.ArraysList;
+
+public class Main {
+
+	public static void main(String[] args) {
+		ArrayList<Pessoa> pessoas = new ArrayList<>();
+		
+	}
+
+}

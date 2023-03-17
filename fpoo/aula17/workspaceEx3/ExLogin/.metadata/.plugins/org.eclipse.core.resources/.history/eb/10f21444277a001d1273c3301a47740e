@@ -1,0 +1,11 @@
+package modelo;
+
+public class Login {
+	private String Nome;
+	private String Senha;
+	
+	public Login(String nome, String senha) {
+		this.Nome = nome;
+		this.Senha = senha;
+	}
+}

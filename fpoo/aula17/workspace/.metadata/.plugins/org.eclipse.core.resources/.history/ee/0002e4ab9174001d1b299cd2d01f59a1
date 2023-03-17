@@ -1,0 +1,18 @@
+package ex1;
+
+import javax.swing.JOptionPane;
+
+public class Formulário {
+
+	public static void main(String[] args) {
+		System.out.println("teste");
+		//Entrada
+		String texto = JOptionPane.showInputDialog("Digite seu nome completo:");
+		//Processamento
+		String nomes[] = texto.split(" ");
+		texto = "Seu primeiro nome possui "+nomes[0].length()+" Letras\n";
+		//saida
+		JOptionPane.showMessageDialog(null, texto);
+	}
+
+}

@@ -1,0 +1,18 @@
+package dao;
+
+import java.io.BufferedWriter;
+import java.io.IOException;
+
+public class DoadorDao {
+	BufferedWriter bw;
+	String arquivo = "./bd/doadores";
+	public void salvar(String dados) {
+		try {
+			bw = new BufferedWriter(new FileWrite(arquivo));
+			bw.write(dados);
+			bw.close();
+			}catch (IOException e) {
+				e.printStackTrace();
+			}
+	}
+}
